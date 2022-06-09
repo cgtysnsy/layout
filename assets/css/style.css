@@ -1,48 +1,74 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* ***General Style** */
+body {
+  margin: 0 auto;
+  max-width: 97%;
 }
 main {
-  width: 100%;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 section {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 90%;
+  margin: auto;
 }
-.article-image {
+.art-div {
+  width: 80%;
+  margin: auto;
+}
+.art-1,
+.art-2,
+.art-3,
+.art-4,
+.art-5 {
+  border: 2px solid darkgrey;
+  margin-top: 55px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.53);
+}
+img {
   width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  flex-grow: 2;
-  border: 1px solid lightgrey;
-}
-article div {
-  width: 85%;
-}
-h1 {
-  width: 100%;
-  margin: 30px 0;
-  font-size: 28px;
 }
 button {
+  background-color: gray;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: 600;
   width: 100%;
-  height: auto;
-  background-color: grey;
+  height: 60px;
+  text-align: center;
+  cursor: grab;
+  margin-bottom: 30px;
 }
-button a {
-  text-decoration: none;
-  color: white;
+h1 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/* first line */
+
+.art-1 {
+  width: 60%;
+}
+.art-2 {
+  width: 30%;
+  margin-left: 50px;
+}
+
+/* second line */
+
+.art-3 {
+  width: 28%;
+}
+.art-4 {
+  width: 28%;
+  margin-left: 55px;
+}
+.art-5 {
+  width: 30%;
+  margin-left: 50px;
 }
